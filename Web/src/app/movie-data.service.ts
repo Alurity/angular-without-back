@@ -5,7 +5,7 @@ import { Observable } from "rxjs";
 @Injectable({providedIn:'root'})
 
 export class MovieDataService {
-	readonly route = 'http://52.15.102.134/api/movies';
+	readonly route = 'https://52.15.102.134/api/movies';
 
 	constructor(private html: HttpClient) { }
 
